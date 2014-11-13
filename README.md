@@ -10,7 +10,8 @@ make
 
 ``
 python omniprop.py [graph filepath] [training filepath] [lambda]  > [result filepath]
-
+``
+``
 python precision_at_p.py [result filepath] [test filepath] > [plot filepath]
 ``
 
