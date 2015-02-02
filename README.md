@@ -9,7 +9,7 @@ make
 # Usage
 
 ``
-python omniprop.py [graph filepath] [training filepath] [lambda]  > [result filepath]
+python omniprop.py [graph filepath] [training filepath] [lambda (default 1.0)]  > [result filepath]
 ``
 
 ``
@@ -40,7 +40,7 @@ Make sure to start all node ids from 0.
 * For unlabeled nodes, let [label id] = -1.
 * See sample data file
 
-## Training file format
+## Test file format
 
 ``
 [node id] [label id]
